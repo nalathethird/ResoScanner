@@ -11,7 +11,7 @@ This README explains the bots intentions and purpose, for [Terms Of Service](htt
 
 Sadly, I would like to keep this bots code Private for now, until I can fully and cleanly make a well documented bot, the actual code is strictly Private. 
 
-I have several things I would like to do with this bot before an official,release, including cluster setup, proper InteractionsEndpoints, etc. but Im in a rough spot IRL, and this is hard to do with a short attention span.
+I have several things I would like to do with this bot before an official release or pre-release, including cluster setup, proper InteractionsEndpoints, etc. but Im in a rough spot IRL, and this is hard to do with a short attention span.
 
 If like to motivate me further, please consider Starting the Repo, or Donating to me on [Kofi](https://ko-fi.com/zeianala)☕
 
