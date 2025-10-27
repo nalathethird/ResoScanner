@@ -4,9 +4,13 @@
 
 # ResoScanner
 A privatly hosted Discord Bot to Scan Resonite Modded Client logs and parse back a readable format.
-This README explains the bots intentions and purpose, for [Terms Of Service](https://github.com/nalathethird/ResoScanner/blob/main/TERMS_OF_SERVICE.md) and [Privacy Policy](https://yellowdogman.com/), see their respective .MD's
+
+This README explains the bots intentions and purpose, for [Terms Of Service](https://github.com/nalathethird/ResoScanner/blob/main/TERMS_OF_SERVICE.md) and [Privacy Policy](https://yellowdogman.com/), see their respective .MD's.
+
 Sadly, I would like to keep this bots code Private for now, until I can fully and cleanly make a well documented bot, the actual code is strictly Private. 
+
 I have several things I would like to do with this bot, including clusters, proper InteractionsEndpoints, etc. but Im in a rough spot IRL, and this is hard to do with a short attention span.
+
 If like to motivate me further, please consider Starting the Repo, or Donating to me on [Kofi](https://ko-fi.com/zeianala)☕
 
 ### [INVITE ResoScanner!](https://discord.com/api/oauth2/authorize?client_id=1431852171972051068&permissions=84032&scope=bot)
