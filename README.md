@@ -15,7 +15,7 @@ I have several things I would like to do with this bot, including clusters, prop
 
 If like to motivate me further, please consider Starting the Repo, or Donating to me on [Kofi](https://ko-fi.com/zeianala)☕
 
-### [INVITE ResoScanner!](https://discord.com/api/oauth2/authorize?client_id=1431852171972051068&permissions=84032&scope=bot)
+### [INVITE ResoScanner!](https://discord.com/oauth2/authorize?client_id=1431852171972051068)
 
 ## Complete Feature List
 
