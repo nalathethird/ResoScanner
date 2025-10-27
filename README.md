@@ -9,7 +9,7 @@ A privatly hosted Discord Bot to Scan Resonite Modded Client logs and parse back
 
 This README explains the bots intentions and purpose, for [Terms Of Service](https://github.com/nalathethird/ResoScanner/blob/main/TERMS_OF_SERVICE.md) and [Privacy Policy](https://yellowdogman.com/), see their respective .MD's.
 
-Sadly, I would like to keep this bots code Private for now, until I can fully and cleanly make a well documented bot, the actual code is strictly Private. 
+Sadly, I would like to keep this bots code Private for now, until I can fully and cleanly make a well documented bot. 
 
 I have several things I would like to do with this bot before an official release or pre-release, including cluster setup, proper InteractionsEndpoints, etc. but Im in a rough spot IRL, and this is hard to do with a short attention span.
 
