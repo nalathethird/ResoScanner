@@ -1,5 +1,7 @@
 <p align="center">
-  <a href="#"><img src="https://raw.githubusercontent.com/nalathethird/ResoScanner/main/ResoScannerIcon.png"></a>
+  <a href="#">
+    <img src="https://raw.githubusercontent.com/nalathethird/ResoScanner/main/ResoScannerIcon.png" height="120">
+  </a>
 </p>
 
 # ResoScanner
