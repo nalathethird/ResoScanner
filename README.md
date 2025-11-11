@@ -4,47 +4,49 @@
   </a>
 </p>
 
-# ResoScanner
-A privatly hosted Discord Bot to Scan Resonite Modded Client logs and parse back a readable format.
+# ResoScanner - A Resonite focused Modded Log Scanner
 
 This README explains the bots intentions and purpose, for [Terms Of Service](https://github.com/nalathethird/ResoScanner/blob/main/TERMS_OF_SERVICE.md) and [Privacy Policy](https://yellowdogman.com/), see their respective .MD's.
 
-Sadly, I would like to keep this bots code Private for now, until I can fully and cleanly make a well documented bot. 
-
-I have several things I would like to do with this bot before an official release or pre-release, including cluster setup, proper InteractionsEndpoints, etc. but Im in a rough spot IRL, and this is hard to do with a short attention span.
-
-If like to motivate me further, please consider Starting the Repo, or Donating to me on [Kofi](https://ko-fi.com/zeianala)☕
-
 ### [INVITE ResoScanner!](https://discord.com/oauth2/authorize?client_id=1431852171972051068)
 
-## Complete Feature List
+## Features
 
-### Core Functionality
-- ✅ Multi-loader support (RML, MonkeyLoader, BepInEx, MelonLoader)
-- ✅ Mod Detection and SHA256 verification (via Verified Mod manifest for RML)
-- ✅ Outdated mod detection
-- ✅ Unverified mod identification
-- ✅ Error analysis for Mods
+- **Instant Log Analysis**: Upload your Resonite `.log` file in a configured channel or DM the bot, and get results in seconds.
+- **Mod Loader Support**: Detects mods from ResoniteModLoader (RML), MonkeyLoader, BepInEx, and MelonLoader.
+- **Error & Warning Detection**: Finds failed mods, errors, and warnings, with severity color-coding in Discord embeds.
+- **Outdated Mod Detection**: Checks for outdated mods using the official manifest and provides update links.
+- **Version Awareness**: Parses Resonite version from logs, shows how old your build is, and compares to the latest Steam release.
+- **Actionable Recommendations**: Provides clear suggestions for fixing detected issues.
+- **Privacy-Friendly**: Logs are processed in memory only and never stored.
+- **Admin Channel Configuration(Servers Only)**: Use `/addlogchannel`, `/removelogchannel`, and `/listlogchannels` to control where the bot scans for logs.
+- **Automatic Status Updates**: Bot status updates when manifest/build info changes.
 
-### Channel Configuration
-- ✅ Per-server slash commands
-- ✅ Max 3 channels per server
-- ✅ Admin-only management
-- ✅ DM support (for people who dont want a public log shown)
+**(I have several things I would like to do with this bot before an official release or pre-release, including cluster setup, proper InteractionsEndpoints, etc. but Im in a rough spot IRL, and this is hard to do with a short attention span.)**
 
-### Privacy & Security
-- ✅ RAM-only log processing
-- ✅ Immediate data disposal
-- ✅ Explicit garbage collection
-- ✅ No persistent storage
-- ✅ Comprehensive TOS and Detailed Privacy Policy, following GDPR compliance and CCPA compliance
+## Quick Start
 
-### User Experience
-- ✅ Embed shows a image of the Loader they are using
-- ✅ Upgrade path for outdated mods via the Verified Mod Manifest on GitHub
-- ✅ Actionable recommendations - not a guarenteed fix
+1. **Invite the bot** to your Discord server or DM it directly.
+2. **Upload your Resonite `.log` file**.
+3. **Get instant feedback** on modding issues!
 
-### 1. Terms of Service & Privacy Policy
+## Configuration
+
+- **Channel Setup**: Use `/addlogchannel` to add a channel for log scanning (admin only). Up to 3 channels per server.
+- **Send a `.log` anywhere!**: You can send a log file in any channel or DM, and the bot will respond in the same channel!
+
+## Privacy & Security
+
+- Logs are never stored or shared.
+- No user tracking or analytics.
+- Only public APIs (Steam, Git/ThunderStore manifests) are accessed.
+
+## Supported Mod Loaders
+
+- ResoniteModLoader (RML)
+- MonkeyLoader
+- BepInEx
+- MelonLoader (rarely used in Resonite, but supported anyway)
 
 #### [TERMS OF SERVICE](https://github.com/nalathethird/ResoScanner/blob/main/TERMS_OF_SERVICE.md)
 - Service description
@@ -62,7 +64,7 @@ If like to motivate me further, please consider Starting the Repo, or Donating t
 - User rights explained
 
 ### 2. Memory Management & Privacy
-**Logs are NEVER stored - example from our code:**
+**Logs are NEVER stored - direct example from my code:**
 
 ```csharp
 // Download log into RAM only
@@ -115,14 +117,9 @@ if (logFile.Size > 5MB)
 3. Shows count: ex. "2/3 channels"
 ```
 
-**Users can:**
-- Configure channels via slash commands
-- Upload logs safely (never stored)
-- Get instant mod analysis
-- Trust privacy guarantees
-
 ## Credits
 - [Resonite](https://resonite.com/) and related assets © [Yellow Dog Man Studios](https://yellowdogman.com/). Used under CC0 license.
 - [BepisLoader](https://github.com/ResoniteModding)
 - [MonkeyLoader](https://github.com/ResoniteModdingGroup)
 - [ResoniteModLoader](https://github.com/resonite-modding-group/)
+- Other assets have been modified from their original sources by Nalathethird.
